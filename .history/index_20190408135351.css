@@ -1,0 +1,678 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  fonts */
+
+@font-face {
+  font-family: PtSansWebBold;
+  src: url(font/pt_sans-web-bold.ttf);
+}
+
+@font-face {
+  font-family: PtSansWebBoldItalic;
+  src: url(font/pt_sans-web-bolditalic.ttf);
+}
+
+@font-face {
+  font-family: PtSansWebItalic;
+  src: url(font/pt_sans-web-italic.ttf);
+}
+
+@font-face {
+  font-family: PtSansWebRegular;
+  src: url(font/pt_sans-web-regular.ttf);
+}
+
+body {
+  font-family: PtSansWebRegular;
+}
+
+h1 {
+  font-family: PtSansWebBold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: PtSansWebBold;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+h3 {
+  font-family: PtSansWebBold;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  line-height: 2.5em;
+}
+
+h3 {
+  font-family: PtSansWebRegular;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 16px;
+}
+
+h4 {
+  font-family: PtSansWebBold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 2.1em;
+}
+
+
+p {
+  font-family: PtSansWebRegular;
+  font-size: 12px;
+  color: #838199;
+  text-align: center;
+  line-height: 1.8em;
+}
+
+.bike-images p {
+  font-family: PtSansWebRegular;
+  font-size: 12.5px;
+  color: #a5a5a5;
+  text-align: justify;
+  line-height: 1.8em;
+}
+
+.last span {
+  font-family: PtSansWebBold;
+  display: inline;
+  font-size: 12px;
+  text-align: center;
+  line-height: 2.8em;
+  letter-spacing: 1.5px;
+}
+
+.last .twitter-time {
+  font-family: PtSansWebRegular;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #b2b1bd;
+  padding-left: 6px;
+}
+
+.last p {
+  font-family: PtSansWebItalic;
+  font-size: 14px;
+  color: #838199;
+  text-align: center;
+  line-height: 1.8em;
+  padding: 0 55px;
+}
+
+.bottom-text p {
+  font-family: PtSansWebRegular;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 12px;
+  color: #fff;
+}
+
+.saddle-text p {
+  font-family: PtSansWebItalic;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #838199;
+  padding-left: 6px;
+  margin-bottom: 20px;
+}
+
+/*  wrapper */
+
+.wrapper {
+  padding: 0 200px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #e8e7e7;
+}
+
+/* intro section */
+
+.hero img {
+  width: 100%;
+}
+
+.topbar {
+  position: absolute;
+  padding: 0px 317px;
+  margin-top: 23px;
+}
+
+.topbar ul {
+  width: 590px;
+  margin: 0 auto;
+}
+
+.topbar li {
+  display: inline-block;
+  padding: 0 20px;
+  float: left;
+  position: relative;
+  top: 52px;
+  transform: translateY(-50%);
+}
+
+.topbar li a {
+  text-decoration: none;
+  color: #4D4B56;
+}
+
+.topbar li a img {
+  width: 75px;
+}
+
+.hero img {
+  vertical-align: bottom;
+  width: 100%;
+  padding-top: 150px;
+  background-color: #F7F7F7
+}
+
+.topbar li a:hover {
+  text-decoration: none;
+  color: #ff000069;
+}
+
+.topbar p {
+  padding: 0 20px;
+  float: left;
+  position: relative;
+  top: 52px;
+  transform: translateY(-50%);
+  font-family: PtSansWebBold;
+}
+
+/* navigation section */
+
+.main {
+  background-color: #F7F7F7
+}
+
+.first {
+  color: #4D4B56;
+  padding: 80px 150px 80px 150px;
+  max-width: 736px;
+}
+
+.first img {
+  padding: 0px 46px;
+}
+
+/* bike images */
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+.bike-images {
+  background-color: #FFFF;
+  position: relative;
+}
+
+.first-container {
+  vertical-align: bottom;
+  display: table;
+}
+
+.first-left {
+  width: 800px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.first-right {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 400px;
+}
+
+#first-vintage-seat img {
+  width: 400px;
+  height: 123px;
+  float: left;
+}
+
+#bike-logo img {
+  width: 100px;
+  position: absolute;
+  margin-top: 179px;
+  transform: translatex(-29%);
+}
+
+#logo img {
+  width: 100px;
+  position: absolute;
+  margin-top: 240px;
+  transform: translateX(-26%);
+}
+
+#vintage-left img {
+  float: left;
+  margin: auto;
+  width: 800px;
+}
+
+.frame img {
+  width: 30px;
+  margin-bottom: 5px;
+}
+
+#vintage-text {
+  height: 162px;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+#vintage-text p {
+  padding: 0px 46px;
+}
+
+.divider-line {
+  height: 1px;
+  background-color: #e2e2e2;
+  margin: 0px 180px 33px;
+}
+
+.arrow-down {
+  width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #FFFF;
+  position: absolute;
+  transform: translateX(1955%);
+}
+
+.second-container {
+  vertical-align: bottom;
+  display: table;
+}
+
+#second-vintage-seat img {
+  width: 400px;
+  height: 123px;
+  float: left;
+  margin-bottom: -1.5px;
+}
+
+.second-left {
+  width: 333px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.sprocket img {
+  width: 20px;
+  margin-bottom: 5px;
+}
+
+#vintage-bike img {
+  float: right;
+  width: 800px;
+  vertical-align: bottom;
+  margin-bottom: -2px;
+}
+
+.second-right {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 656px;
+}
+
+#vintage-logo img {
+  width: 145px;
+  position: absolute;
+  margin-top: 167px;
+  transform: translateX(-47%);
+}
+
+.retro-container {
+  vertical-align: bottom;
+  display: table;
+}
+
+.retro-left {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 333px;
+}
+
+.retro-middle {
+  width: 400px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.retro-right {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 400px;
+}
+
+#retro-logo img {
+  width: 160px;
+  position: absolute;
+  margin-top: 197px;
+  transform: translateX(-50%);
+}
+
+#retro-bike img {
+  float: right;
+  width: 400px;
+  vertical-align: bottom;
+}
+
+#retro-bike-right img {
+  float: right;
+  width: 400px;
+  vertical-align: bottom;
+}
+
+.steering img {
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+#retro-rail img {
+  width: 400px;
+  height: 123px;
+  vertical-align: bottom;
+}
+
+.bottom-container {
+  vertical-align: bottom;
+  display: table;
+  margin-top: 14px;
+}
+
+.bottom-left {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 400px;
+}
+
+.bottom-middle {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 400px;
+}
+
+.bottom-right {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 400px;
+}
+
+#image-one img {
+  float: left;
+  width: 200px;
+  vertical-align: bottom;
+  max-height: 199px;
+}
+
+#brooks-seat img {
+  float: left;
+  width: 400px;
+  vertical-align: bottom;
+}
+
+#image-three img {
+  float: left;
+  width: 200px;
+  vertical-align: bottom;
+}
+
+#image-five img {
+  float: left;
+  width: 400px;
+  vertical-align: bottom;
+  margin-top: -1px;
+}
+
+#bottom-bike-logo img {
+  width: 50px;
+  position: absolute;
+  margin-top: 79px;
+  transform: translatex(-57%);
+}
+
+.bottom-text {
+  position: absolute;
+  padding: 0px -4px;
+  margin-top: 108px;
+  width: 400px;
+}
+
+/* twitter-last section */
+
+.last {
+  padding: 80px 150px 50px 150px;
+  max-width: 736px;
+}
+
+.last img {
+  width: 25px;
+  padding-bottom: 15px;
+}
+
+.noBorder {
+  border: 0;
+}
+
+/* slider */
+
+.dotfirst {
+  width: 0.50rem;
+  height: 0.50rem;
+  background-color: #ADB2B6;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot {
+  width: 0.40rem;
+  height: 0.40rem;
+  border-radius: #ADB2B6;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 1px solid #ADB2B6;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50
+}
+
+.slider {
+  color: #4D4B56;
+  padding: 0px 0px 30px 0px;
+  max-width: 736px;
+}
+
+/* last section */
+
+.discover-container {
+  background-color: #252525;
+  height: 75px;
+  padding-top: 50px;
+}
+
+.discover-text button {
+  border: 1px solid #ffff;
+  padding: 3px 30px;
+  margin: 0 493px;
+  font-family: PtSansWebRegular;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 10px;
+  color: #fff;
+  background-color: #252525;
+}
+
+.discover-text button:hover {
+  background-color: #fff;
+  color: #252525;
+  box-shadow: none;
+  transform: none;
+  transition: 0.1s ease-in-out;
+}
+
+.email-container {
+  background-color: #ffff;
+  padding: 50px 150px 125px 150px;
+}
+
+.email-container img {
+  width: 65px;
+  padding: 10px 420px;
+}
+
+input {
+  border: 1px solid #e8e7e7;
+  padding: 5px 30px;
+  margin: 3px 255px;
+  position: absolute;
+  padding: 9px 109px 9px 20px;
+  font-family: PtSansWebItalic;
+  font-size: 14px;
+  color: #e8e7e7;
+  text-align: center;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+.email-container button {
+  margin: 2px 541px;
+  position: absolute;
+  background-color: #66c4a1;
+  padding: 2px 50px;
+  font-family: PtSansWebRegular;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 16px;
+  color: #fff;
+}
+
+.email-container button:hover {
+  background-color: #fff;
+  color: #66c4a1;
+  box-shadow: none;
+  transform: none;
+  transition: 0.1s ease-in-out;
+}
+
+.footer-container {
+  background-color: #f7f7f7;
+  padding: 50px 150px;
+  display: table
+}
+
+.footer-left {
+  display: table-cell;
+  width: 400px;
+  text-align: left;
+}
+
+.footer-left span {
+  font-size: 10px;
+  color: #838199;
+  font-weight: bold;
+}
+
+.footer-text p {
+  font-family: PtSansWebItalic;
+  font-size: 9px;
+  color: #838199;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+.footer-middle {
+  display: table-cell;
+  width: 400px;
+  transform: translateX(33%);
+  vertical-align: middle;
+}
+
+.footer-middle img {
+  width: 20px;
+}
+
+.footer-right {
+  width: 400px;
+}
+
+.footer-right-text p {
+  font-family: PtSansWebItalic;
+  font-size: 9px;
+  color: #838199;
+  line-height: 1.4em;
+  margin-top: 23px;
+  width: 60px;
+  transform: translateX(95%);
+}
+
+.footer-right img {
+  width: 30px;
+  transform: translateX(300%);
+  padding-top: 0px;
+  margin-top: -16px;
+  position: absolute;
+} p
