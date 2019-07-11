@@ -1,3 +1,3 @@
-My first HTML and CSS project at Bloc, week 3.
+A demo page.
 
 <img src='./longtable-fundraiser.png' alt='website mockup'/>
